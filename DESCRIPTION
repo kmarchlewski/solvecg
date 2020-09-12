@@ -1,0 +1,18 @@
+Package: solvecg
+Title: Conjugate gradient method for solving and inverting
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Krzysztof",
+           family = "Marchlewski",
+           role = c("aut", "cre"),
+           email = "k.marchlewski@vp.pl",
+           comment = c(ORCID = 0000-0003-0751-9035))
+Description: The package contains two functions. Both of them are based on
+    the conjugate gradient method used for solving a symmetric system of equations.
+    solve_cg function solves iteratively a system of the form Ax = b.
+    invert_cg function calculates a matrix inverse.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
